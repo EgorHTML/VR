@@ -8,9 +8,8 @@ public class Button : MonoBehaviour
     private bool isActive = true;
     void Start()
     {
-        objectToActivate =  GameObject.FindWithTag("cube");
+        objectToActivate = GameObject.FindWithTag("cube");
     }
-
     public void ToggleObjectActivation()
     {
         isActive = !isActive;
